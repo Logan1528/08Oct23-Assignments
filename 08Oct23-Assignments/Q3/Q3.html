@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav-bar{          
+            margin: 10px;  
+            padding: 10px;
+            display: flex;
+            color: aliceblue;
+            background-color: black;
+            width: auto;
+            height: auto;
+            justify-content: center;
+            justify-content: space-evenly;
+            gap: 40px;
+        }
+
+        @media screen and (max-width: 768px){
+            .nav-bar{
+                background-color: gray;
+                display: block;
+                text-align: center;                                
+            }            
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <nav>Home</nav>
+        <nav>About</nav>
+        <nav> Services</nav>
+        <nav>Portfolio</nav>
+        <nav>Contact</nav>
+    </div>
+</body>
+</html>
